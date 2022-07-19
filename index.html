@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes etc</title>
+    <link rel="icon" type="image/png" href="images/icon.png">  
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section start page -->
+
+<header class="header">
+   <a href="index.html" class="logo"> <i class="fas fa-cheese"></i> Cakes etc. </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="shop.html">Shop</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="purchase.html" class="fa fa-shopping-cart"></a>
+        <a href="register.html" class="fas fa-user"></a>
+    </div>
+    </div>
+
+
+</header>
+ 
+<!-- home section start -->
+    
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Have a bite & taste</span>
+                <h3>Up to 50% off</h3>
+                <a href="shop.html" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="images/cake1.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Have a bite & taste</span>
+                <h3>Up to 50% off</h3>
+                <a href="shop.html" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="images/cake2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Have a bite & taste</span>
+                <h3>Up to 50% off</h3>
+                <a href="shop.html" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="images/cake3.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="images/cake4.jpg" alt="">
+        <div class="content">
+        <span>Limited sales</span>
+        <h3>Up to 50% off</h3>
+        <a href="shop.html" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img src="images/cake5.jpg" alt="">
+        <div class="content">
+        <span>Limited Sales</span>
+        <h3>Up to 50% off</h3>
+        <a href="shop.html" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img src="images/cake6.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>up to 50% off</h3>
+        <a href="shop.html" class="btn">shop now</a>
+    </div>
+    </div>
+
+</section>
+
+
+<div class="space"></div>
+
+<!-- footer section start -->
+
+
+<section class="footer">    
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick links</h3>
+        <a href="index.html"> <i class="fas fa-arrow-right"></i> Home</a>
+        <a href="about.html"> <i class="fas fa-arrow-right"></i>About</a>
+        <a href="shop.html"> <i class="fas fa-arrow-right"></i>Shop</a>
+        <a href="review.html"> <i class="fas fa-arrow-right"></i> Review</a>
+        <a href="contact.html"> <i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="https://www.facebook.com/profile.php?id=100065085425135"> <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="https://instagram.com/cakes.etc__?igshid=YmMyMTA2M2Y="> <i class="fab fa-instagram"></i> Instagram </a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>subscribe for latest update</p>
+            <form action="">
+            <input type="email" placeholder="enter your email address">
+            <input type="submit" value="subscribe" class="btn">
+            </form>
+            <img src="images/payment.png" class="payments" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="credit">&copy; 2007 Cakes etc. || All Rights Reserved</section>
+
+
+    <!-- custom js file link -->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes etc</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section start page -->
+
+<header class="header">
+    <a href="index.html" class="logo"> <i class="fas fa-cheese"></i> Cakes etc. </a>
+
+    <nav class="navbar">
+         <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="shop.html">Shop</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="purchase.html" class="fa fa-shopping-cart"></a>
+        <a href="register.html" class="fas fa-user"></a>
+    </div>
+    </div>
+
+
+</header>
+
+<div class="heading">
+    <h1>SIGN UP</h1>
+</div>
+
+<form id="regForm" action="index.html">
+  <h1>REGISTER</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab">Name:
+    <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
+    <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
+  </div>
+  <div class="tab">Contact Info:
+    <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
+    <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
+  </div>
+  <div class="tab">Birthday:
+    <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
+    <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
+    <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
+  </div>
+  <div class="tab">Login Info:
+    <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
+    <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+  </div>
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+</form>
+
+
+
+
+<div class="space"></div>
+<!-- footer section start -->
+
+
+<section class="footer">    
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick links</h3>
+        <a href="index.html"> <i class="fas fa-arrow-right"></i> Home</a>
+        <a href="about.html"> <i class="fas fa-arrow-right"></i>About</a>
+        <a href="shop.html"> <i class="fas fa-arrow-right"></i>Shop</a>
+        <a href="review.html"> <i class="fas fa-arrow-right"></i> Review</a>
+        <a href="contact.html"> <i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="https://www.facebook.com/profile.php?id=100065085425135"> <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="https://instagram.com/cakes.etc__?igshid=YmMyMTA2M2Y="> <i class="fab fa-instagram"></i> Instagram </a>
+        </div>
+
+     <div class="box">
+            <h3>Newsletter</h3>
+            <p>subscribe for latest update</p>
+            <form action="">
+            <input type="email" placeholder="enter your email address">
+            <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="credit">&copy; 2007 Cakes etc. || All Rights Reserved</section>
+
+
+    <!-- custom js file link -->
+    <script src="main.js"></script>
+</body>
+</html>
