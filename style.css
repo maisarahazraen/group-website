@@ -1541,6 +1541,15 @@ position: absolute;
         right:8rem;
 
     }
+    
+    div.product-col
+    {
+        padding: 10px 6px;
+        border: 1px solid #ccc;
+        display: inline-block;
+        width: 20%;
+        margin: 30px;
+    }
 
 }
 
